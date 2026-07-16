@@ -1,7 +1,7 @@
 import heapq
 
 # --- Union-Find for Kruskal ---
-class UnionFind:
+class UnionFind: 
     def __init__(self, n):
         self.parent = list(range(n))
         self.rank = [0] * n
