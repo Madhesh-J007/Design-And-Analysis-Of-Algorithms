@@ -1,7 +1,7 @@
 import time
 import random
 import string
-
+ 
 
 def naive_search(text, pattern):
     n, m = len(text), len(pattern)
