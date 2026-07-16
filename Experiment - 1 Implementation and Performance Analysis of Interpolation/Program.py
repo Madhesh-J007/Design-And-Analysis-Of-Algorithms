@@ -85,7 +85,7 @@ target = 35
 
 idx, comps = interpolation_search(arr, target)
 
-print(f"Array: {arr}")
+print(f"Array: {arr}") 
 print(f"Searching for: {target}")
 print(f"Found at index: {idx}, Comparisons: {comps}")
 print()
